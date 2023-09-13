@@ -15,7 +15,7 @@
    <script>
       window.onload = function () {
          // access all HTML elements and image classifier
-         const image_classifier = ml5.imageClassifier("model.json", modelLoaded);
+         const image_classifier = ml5.imageClassifier("/model.json", modelLoaded);
          const triggerClassify = document.getElementById("triggerClassify");
          const upload_image = document.getElementById("upload_image");
          const show_image = document.getElementById("show_image");
